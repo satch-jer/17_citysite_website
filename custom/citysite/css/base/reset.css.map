@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;IAII;ACJJ;;;IAGI;ADKJ;;EAEE;AACF,EAAE;EACA,MAAM,EAAE,CAAC;;AAGX;;EAEE;AACF,CAAC;EACC,eAAe,EAAE,IAAI;EACrB,KAAK,ECXC,OAAO",
+"sources": ["../../sass/base/reset.scss","../../sass/theme/_colors.scss"],
+"names": [],
+"file": "reset.css"
+}

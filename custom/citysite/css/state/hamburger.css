@@ -1,0 +1,15 @@
+/***
+state/hamburger.css
+styling of hamburger menu on hover
+***/
+.field--name-field-linkblok-link a {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+
+.field--name-field-linkblok-link:hover a,
+.field--name-field-linkblok-link:focus a,
+.field--name-field-linkblok-link:active a {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25); }
+
+/*# sourceMappingURL=hamburger.css.map */

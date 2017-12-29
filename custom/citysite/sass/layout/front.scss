@@ -1,0 +1,85 @@
+/***
+layout/front.css
+grid system of front page
+***/
+
+@import "../theme/colors";
+
+.page-node-type-titelpagina{
+
+  /*
+  header always on top
+  placed over content
+  */
+  .block-system-branding-block{
+    position: absolute;
+    width: 6.4rem;
+    height: auto;
+    left: 8.9%;
+    top: 4%;
+    z-index: 99999;
+  }
+
+  /*
+  hamburger always on top, right
+  placed over content
+  */
+  .field--name-field-linkblok-link{
+    position: absolute;
+    width: 3.2rem;
+    height: auto;
+    right: 8.9%;
+    top: 4%;
+    z-index: 99999;
+  }
+
+  /*
+  main content of page
+  100% width and height on front
+  */
+  .layout-content{
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    padding-left: 8.9%;
+    padding-top: 4%;
+  }
+
+  /*
+  push links to bottom of page
+  */
+  .field--name-field-titelpagina-link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; //element takes whole width of screen!
+    z-index: 99999;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    /*
+    links (2) are each 50% wide
+    */
+    .field__item{
+      width: 50%;
+    }
+  }
+
+
+}

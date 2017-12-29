@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;IAGI;ACHJ;;;IAGI;AAEI,+FAAuF;ACL/F;;;IAGI;AFKJ;;EAEE;AACF;yCACyC;EACvC,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,8BAA8B;EAC3C,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,SAAS;;AAG3B;;;EAGE;AACF,UAAU;EACR,eAAe,EAAE,SAAS;;AAI5B;;IAEI;AAEJ,qCAAsC;EACpC;2CACyC;IACvC,SAAS,EAAE,MAAM",
+"sources": ["../../sass/components/titles.scss","../../sass/theme/_fonts.scss","../../sass/theme/_colors.scss"],
+"names": [],
+"file": "titles.css"
+}

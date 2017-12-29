@@ -1,0 +1,38 @@
+/***
+components/titles.css
+styling of titles
+***/
+
+@import "../theme/fonts";
+@import "../theme/colors";
+
+/*
+biggest title
+*/
+h1,
+.field--name-field-titelpagina-ondertitel{
+  font-size: 2.4rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*
+underline class
+used for title on homepage
+*/
+.underline{
+  text-decoration: underline;
+}
+
+
+/***
+media queries
+***/
+
+@media screen and (min-width: 1024px) {
+  h1,
+  .field--name-field-titelpagina-ondertitel{
+    font-size: 3.2rem;
+  }
+}

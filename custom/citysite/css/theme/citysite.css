@@ -1,0 +1,22 @@
+/***
+theme/citysite.css
+purely visual styling
+***/
+/***
+theme/_fonts.css
+building our color palette
+***/
+body {
+  font-size: 62.5%;
+  /*** rem holy hack ***/
+  color: #101010;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  /*** sharper fonts ***/
+  -moz-osx-font-smoothing: grayscale;
+  /*** sharper fonts ***/ }
+
+.layout-container {
+  opacity: 0; }
+
+/*# sourceMappingURL=citysite.css.map */

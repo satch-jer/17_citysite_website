@@ -1,0 +1,27 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/base/ress.min.css: {}
+      css/base/reset.css: {}
+    theme:
+      css/theme/citysite.css: {}
+    layout:
+      css/layout/front.css: {}
+    components:
+      css/components/titles.css: {}
+      css/components/hamburger.css: {}
+      css/components/navfoot.css: {}
+    state:
+      css/state/hamburger.css: {}
+  js:
+    js/citysite.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+
+fader:
+  version: 1
+  js:
+    js/fader.js: {}

@@ -1,0 +1,19 @@
+name: citysite
+type: theme
+description: 'Drupal 8 theme for city-site, made by <a href="http://satch.cc">Satch</a>.'
+package: Core
+version: 1.01
+core: 8.x
+base theme: classy
+
+libraries:
+  - citysite/global-styling
+
+libraries-override:
+  classy/base: false
+
+regions:
+  header: Header
+  nav: Navigation
+  content: Content
+  footer: Footer

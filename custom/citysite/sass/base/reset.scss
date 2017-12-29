@@ -1,0 +1,22 @@
+/***
+base/reset.css
+satch + city-site css reset
+build on top of ress.min.css
+***/
+
+@import "../theme/colors";
+
+/*
+h1
+*/
+h1{
+  margin: 0;
+}
+
+/*
+links
+*/
+a{
+  text-decoration: none;
+  color: $black;
+}

@@ -1,0 +1,18 @@
+/***
+components/hamburger.css
+styling of hamburger menu
+***/
+.field--name-field-linkblok-link {
+  /*
+  little padding for alignment with logo
+  */
+  padding-top: 1.6rem;
+  /*
+  replace link text with icon
+  */ }
+  .field--name-field-linkblok-link a {
+    background: url(../../icons/menu.svg) no-repeat;
+    text-indent: -9999px;
+    display: block; }
+
+/*# sourceMappingURL=hamburger.css.map */
