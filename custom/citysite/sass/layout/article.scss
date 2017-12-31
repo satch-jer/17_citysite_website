@@ -1,0 +1,72 @@
+/***
+layout/front.css
+grid system of article page
+***/
+
+/*
+aim for article page only
+*/
+
+@import "../theme/dist";
+
+.page-node-type-article{
+
+  /*
+  placing the page title
+  */
+  .block-page-title-block{
+    height: 60vh;
+    width: 100vw; /*pattern bgc*/
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    align-items: center;
+  }
+
+  .node{
+    padding-left: $medium;
+    padding-right: $small;
+
+    .field--name-field-artikel-kantlijn,
+    .field--name-field-artikel-tekst,
+    .slick,
+    .field--name-field-artikel-voetnoot{
+      margin-bottom: $medium;
+    }
+
+    .field--name-field-artikel-voetnoot{
+      padding-left: $small;
+      padding-right: $small;
+    }
+
+  }
+}
+
+/***
+media queries
+***/
+@media screen and (min-width: 1024px) {
+
+  .page-node-type-article{
+    /*
+    smaller margin-bottom on bigger screens
+    */
+    .node{
+      .field--name-field-artikel-kantlijn,
+      .field--name-field-artikel-tekst,
+      .slick,
+      .field--name-field-artikel-voetnoot{
+        margin-bottom: $medium / 2;
+      }
+    }
+  }
+}

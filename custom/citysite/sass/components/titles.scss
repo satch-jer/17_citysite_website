@@ -5,6 +5,7 @@ styling of titles
 
 @import "../theme/fonts";
 @import "../theme/colors";
+@import "../theme/dist";
 
 /*
 biggest title
@@ -18,6 +19,22 @@ h1,
 }
 
 /*
+title on article page is
+lowercase and lighter font
+*/
+.page-node-type-article {
+  h1{
+    text-transform: lowercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-top: $medium;
+    padding-bottom: $medium;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*
 underline class
 used for title on homepage
 */
@@ -25,14 +42,22 @@ used for title on homepage
   text-decoration: underline;
 }
 
-
 /***
 media queries
 ***/
-
 @media screen and (min-width: 1024px) {
   h1,
   .field--name-field-titelpagina-ondertitel{
     font-size: 3.2rem;
+  }
+
+  /*
+title on article page is
+lowercase and lighter font
+*/
+  .page-node-type-article {
+    h1{
+      font-size: 2.4rem;
+    }
   }
 }

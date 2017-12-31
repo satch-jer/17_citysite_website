@@ -5,6 +5,7 @@ only used on front page || titelpagina
 ***/
 
 @import "../state/animations";
+@import "../theme/dist";
 
 .field--name-field-titelpagina-link{
 
@@ -14,7 +15,7 @@ only used on front page || titelpagina
   .field__item{
     @extend .hvr-sweep-to-right;
 
-    padding: 4%; //give some padding
+    padding: $small; //give some padding
     background-color: rgba(255,255,255,0.5); //white bgc with 50% opacity
     text-align: right;
 
@@ -38,7 +39,7 @@ only used on front page || titelpagina
     border-right: 1px solid rgba(255,255,255,0.6);
 
     a{
-      padding-left: 8.9%;
+      padding-left: $medium;
     }
   }
 }

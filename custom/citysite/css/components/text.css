@@ -1,0 +1,76 @@
+/***
+components/text.css
+styling of text
+***/
+/***
+theme/_fonts.css
+defining font styles
+***/
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:500,700|Raleway:300,500");
+/***
+theme/_fonts.css
+building our color palette
+***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+p {
+  font-size: 1rem;
+  padding-bottom: 4%;
+  font-weight: 300; }
+
+/*
+last paragraph has no padding-bottom
+*/
+p:last-child {
+  padding-bottom: 0; }
+
+/*
+green class inline with text
+*/
+.green {
+  color: #a5ed8e; }
+
+/*
+kantlijn has different styling
+*/
+.field--name-field-artikel-kantlijn {
+  /*
+  content has border
+  padding of p -> div
+  */
+  border: 1px solid #101010;
+  padding: 2%; }
+  .field--name-field-artikel-kantlijn p {
+    font-size: .8rem;
+    padding-bottom: 0%;
+    font-weight: 500; }
+
+/*
+kantlijn has different styling
+*/
+.field--name-field-artikel-voetnoot p {
+  font-size: 1.6rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500; }
+
+/***
+media queries
+***/
+@media screen and (min-width: 1024px) {
+  p {
+    padding-bottom: 2%;
+    font-size: 1.1rem; }
+
+  .field--name-field-artikel-kantlijn p {
+    font-size: .9rem; }
+
+  .field--name-field-artikel-voetnoot p {
+    font-size: 1.7rem; } }
+
+/*# sourceMappingURL=text.css.map */

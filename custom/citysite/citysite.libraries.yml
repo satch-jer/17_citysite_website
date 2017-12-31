@@ -8,8 +8,11 @@ global-styling:
       css/theme/citysite.css: {}
     layout:
       css/layout/front.css: {}
+      css/layout/header.css: {}
+      css/layout/article.css: {}
     components:
       css/components/titles.css: {}
+      css/components/text.css: {}
       css/components/hamburger.css: {}
       css/components/navfoot.css: {}
     state:

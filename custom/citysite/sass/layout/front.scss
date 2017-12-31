@@ -4,33 +4,27 @@ grid system of front page
 ***/
 
 @import "../theme/colors";
+@import "../theme/dist";
 
 .page-node-type-titelpagina{
 
   /*
   header always on top
-  placed over content
   */
   .block-system-branding-block{
-    position: absolute;
-    width: 6.4rem;
-    height: auto;
-    left: 8.9%;
-    top: 4%;
-    z-index: 99999;
+    /*
+    css in header.css (dry)
+    */
   }
 
   /*
   hamburger always on top, right
-  placed over content
+  css in header.css
   */
   .field--name-field-linkblok-link{
-    position: absolute;
-    width: 3.2rem;
-    height: auto;
-    right: 8.9%;
-    top: 4%;
-    z-index: 99999;
+    /*
+    css in header.css (dry)
+    */
   }
 
   /*
@@ -55,8 +49,8 @@ grid system of front page
     width: 100vw;
     height: 100vh;
 
-    padding-left: 8.9%;
-    padding-top: 4%;
+    padding-left: $medium;
+    padding-top: $small;
   }
 
   /*
@@ -80,6 +74,4 @@ grid system of front page
       width: 50%;
     }
   }
-
-
 }

@@ -6,14 +6,21 @@ grid system of front page
 theme/_fonts.css
 building our color palette
 ***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
 .page-node-type-titelpagina {
   /*
   header always on top
-  placed over content
   */
   /*
   hamburger always on top, right
-  placed over content
+  css in header.css
   */
   /*
   main content of page
@@ -23,19 +30,13 @@ building our color palette
   push links to bottom of page
   */ }
   .page-node-type-titelpagina .block-system-branding-block {
-    position: absolute;
-    width: 6.4rem;
-    height: auto;
-    left: 8.9%;
-    top: 4%;
-    z-index: 99999; }
+    /*
+    css in header.css (dry)
+    */ }
   .page-node-type-titelpagina .field--name-field-linkblok-link {
-    position: absolute;
-    width: 3.2rem;
-    height: auto;
-    right: 8.9%;
-    top: 4%;
-    z-index: 99999; }
+    /*
+    css in header.css (dry)
+    */ }
   .page-node-type-titelpagina .layout-content {
     display: -webkit-box;
     display: -ms-flexbox;

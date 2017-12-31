@@ -11,6 +11,14 @@ defining font styles
 theme/_fonts.css
 building our color palette
 ***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
 /*
 biggest title
 */
@@ -20,6 +28,19 @@ h1,
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
+
+/*
+title on article page is
+lowercase and lighter font
+*/
+.page-node-type-article h1 {
+  text-transform: lowercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-top: 8.9%;
+  padding-bottom: 8.9%;
+  width: 100%;
+  text-align: center; }
 
 /*
 underline class
@@ -34,6 +55,13 @@ media queries
 @media screen and (min-width: 1024px) {
   h1,
   .field--name-field-titelpagina-ondertitel {
-    font-size: 3.2rem; } }
+    font-size: 3.2rem; }
+
+  /*
+title on article page is
+lowercase and lighter font
+*/
+  .page-node-type-article h1 {
+    font-size: 2.4rem; } }
 
 /*# sourceMappingURL=titles.css.map */

@@ -1,0 +1,59 @@
+/***
+layout/front.css
+grid system of article page
+***/
+/*
+aim for article page only
+*/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+.page-node-type-article {
+  /*
+  placing the page title
+  */ }
+  .page-node-type-article .block-page-title-block {
+    height: 60vh;
+    width: 100vw;
+    /*pattern bgc*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .page-node-type-article .node {
+    padding-left: 8.9%;
+    padding-right: 4%; }
+    .page-node-type-article .node .field--name-field-artikel-kantlijn,
+    .page-node-type-article .node .field--name-field-artikel-tekst,
+    .page-node-type-article .node .slick,
+    .page-node-type-article .node .field--name-field-artikel-voetnoot {
+      margin-bottom: 8.9%; }
+    .page-node-type-article .node .field--name-field-artikel-voetnoot {
+      padding-left: 4%;
+      padding-right: 4%; }
+
+/***
+media queries
+***/
+@media screen and (min-width: 1024px) {
+  .page-node-type-article {
+    /*
+    smaller margin-bottom on bigger screens
+    */ }
+    .page-node-type-article .node .field--name-field-artikel-kantlijn,
+    .page-node-type-article .node .field--name-field-artikel-tekst,
+    .page-node-type-article .node .slick,
+    .page-node-type-article .node .field--name-field-artikel-voetnoot {
+      margin-bottom: 4.45%; } }
+
+/*# sourceMappingURL=article.css.map */

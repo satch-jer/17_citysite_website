@@ -81,6 +81,14 @@ Sweep To Left
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
 .field--name-field-titelpagina-link {
   /*
   block with links/buttons
