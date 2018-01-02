@@ -1,0 +1,28 @@
+/***
+components/button.css
+styling of buttons
+***/
+
+@import '../theme/colors';
+@import "../theme/dist";
+
+/*
+styling of buttons on projectpagina
+*/
+.field--name-field-project-links{
+  div{
+    background-color: $concrete;
+    display: inline;
+    padding: $small/2;
+    margin-right: $small;
+
+    a{
+      color: $black;
+      font-size: 1em;
+      /*
+      bold buttons
+      */
+      font-weight: 500;
+    }
+  }
+}

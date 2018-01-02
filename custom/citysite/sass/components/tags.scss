@@ -1,0 +1,16 @@
+/***
+layout/tags.css
+styling of tags (tax)
+***/
+
+@import "../theme/colors";
+
+.field--name-field-project-kenmerken{
+  .field__item{
+    /*
+    divs are shown next to each other
+    */
+    display: inline !important;
+    color: $emperor;
+  }
+}

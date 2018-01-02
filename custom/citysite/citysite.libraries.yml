@@ -10,11 +10,15 @@ global-styling:
       css/layout/front.css: {}
       css/layout/header.css: {}
       css/layout/article.css: {}
+      css/layout/project.css: {}
+      css/layout/slider.css: {}
     components:
       css/components/titles.css: {}
       css/components/text.css: {}
       css/components/hamburger.css: {}
       css/components/navfoot.css: {}
+      css/components/tags.css: {}
+      css/components/buttons.css: {}
     state:
       css/state/hamburger.css: {}
   js:

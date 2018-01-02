@@ -1,0 +1,116 @@
+/***
+layout/front.css
+grid system of projectpage
+***/
+
+/*
+aim for projectpage only
+*/
+
+@import "../theme/dist";
+
+.page-node-type-projectpagina{
+
+  /*
+  placing the page title
+  */
+  .project-title{
+    height: 80vh;
+    width: 100vw; /*pattern bgc*/
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    align-items: center;
+  }
+
+  /*
+  every div has own class
+  slideshow is full width
+  */
+  .project-intro,
+  .project-detail {
+    padding-left: $medium;
+    padding-right: $small;
+  }
+
+  .project-intro{
+    /*
+    project intro has double spacing
+    */
+    margin-top: $medium*2;
+    margin-bottom: $medium*2;
+
+    .field--name-field-project-kenmerken{
+      margin-top: $medium;
+    }
+  }
+
+  /*
+  styling of project specs
+  similar to kantlijn on article page
+  */
+  .project-specs{
+    margin-bottom: $medium;
+
+    /*
+    align label next to text
+    */
+    .field{
+      display: flex;
+
+      /*
+      give every label same width
+      */
+      .field__label{
+        width: 100px;
+      }
+    }
+  }
+
+  .project-desc{
+    margin-bottom: $medium+$small;
+
+    /*
+    little spacing between text and buttons
+    */
+    .field--name-field-project-beschrijving{
+      margin-bottom: $small;
+    }
+
+  }
+
+  /*
+  maps has double bottom margin
+  last block of the page
+  white space rocks!
+  */
+  .project-maps{
+    margin-bottom: $medium*2;
+    iframe{
+      height: 40vh;
+    }
+  }
+}
+
+/***
+media queries
+***/
+@media screen and (min-width: 1024px) {
+
+  .page-node-type-projectpagina{
+    /*
+    smaller margin-bottom on bigger screens
+    */
+    .node{
+    }
+  }
+}

@@ -46,9 +46,30 @@ kantlijn has different styling
 }
 
 /*
-kantlijn has different styling
+styling of project specs
+similar to kantlijn on article page
 */
-.field--name-field-artikel-voetnoot{
+.project-specs{
+  /*
+  content has border
+  padding of p -> div
+  */
+  border: 1px solid $black;
+  padding: $small / 2;
+
+  .field, p{
+    font-size: .8rem;
+    padding-bottom: 0%;
+    font-weight: 500;
+  }
+}
+
+/*
+voetnoot has different styling
+project-intro shares same styling
+*/
+.field--name-field-artikel-voetnoot,
+.project-intro{
   p{
     font-size: 1.6rem;
     font-family: "Barlow Condensed", sans-serif;

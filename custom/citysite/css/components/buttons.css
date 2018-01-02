@@ -1,0 +1,33 @@
+/***
+components/button.css
+styling of buttons
+***/
+/***
+theme/_fonts.css
+building our color palette
+***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+/*
+styling of buttons on projectpagina
+*/
+.field--name-field-project-links div {
+  background-color: #f2f2f2;
+  display: inline;
+  padding: 2%;
+  margin-right: 4%; }
+  .field--name-field-project-links div a {
+    color: #101010;
+    font-size: 1em;
+    /*
+    bold buttons
+    */
+    font-weight: 500; }
+
+/*# sourceMappingURL=buttons.css.map */

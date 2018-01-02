@@ -1,0 +1,16 @@
+/***
+layout/tags.css
+styling of tags (tax)
+***/
+/***
+theme/_fonts.css
+building our color palette
+***/
+.field--name-field-project-kenmerken .field__item {
+  /*
+  divs are shown next to each other
+  */
+  display: inline !important;
+  color: #555555; }
+
+/*# sourceMappingURL=tags.css.map */

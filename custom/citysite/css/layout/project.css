@@ -1,0 +1,91 @@
+/***
+layout/front.css
+grid system of projectpage
+***/
+/*
+aim for projectpage only
+*/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+.page-node-type-projectpagina {
+  /*
+  placing the page title
+  */
+  /*
+  every div has own class
+  slideshow is full width
+  */
+  /*
+  styling of project specs
+  similar to kantlijn on article page
+  */
+  /*
+  maps has double bottom margin
+  last block of the page
+  white space rocks!
+  */ }
+  .page-node-type-projectpagina .project-title {
+    height: 80vh;
+    width: 100vw;
+    /*pattern bgc*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .page-node-type-projectpagina .project-intro,
+  .page-node-type-projectpagina .project-detail {
+    padding-left: 8.9%;
+    padding-right: 4%; }
+  .page-node-type-projectpagina .project-intro {
+    /*
+    project intro has double spacing
+    */
+    margin-top: 17.8%;
+    margin-bottom: 17.8%; }
+    .page-node-type-projectpagina .project-intro .field--name-field-project-kenmerken {
+      margin-top: 8.9%; }
+  .page-node-type-projectpagina .project-specs {
+    margin-bottom: 8.9%;
+    /*
+    align label next to text
+    */ }
+    .page-node-type-projectpagina .project-specs .field {
+      display: flex;
+      /*
+      give every label same width
+      */ }
+      .page-node-type-projectpagina .project-specs .field .field__label {
+        width: 100px; }
+  .page-node-type-projectpagina .project-desc {
+    margin-bottom: 12.9%;
+    /*
+    little spacing between text and buttons
+    */ }
+    .page-node-type-projectpagina .project-desc .field--name-field-project-beschrijving {
+      margin-bottom: 4%; }
+  .page-node-type-projectpagina .project-maps {
+    margin-bottom: 17.8%; }
+    .page-node-type-projectpagina .project-maps iframe {
+      height: 40vh; }
+
+/***
+media queries
+***/
+@media screen and (min-width: 1024px) {
+  .page-node-type-projectpagina {
+    /*
+    smaller margin-bottom on bigger screens
+    */ } }
+
+/*# sourceMappingURL=project.css.map */

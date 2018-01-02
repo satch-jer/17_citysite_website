@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;IAGI;ACHJ;;;IAGI;ADKF,iDAAY;EACV;;IAEE;EACF,OAAO,EAAE,iBAAiB;EAC1B,KAAK,ECJC,OAAO",
+"sources": ["../../sass/components/tags.scss","../../sass/theme/_colors.scss"],
+"names": [],
+"file": "tags.css"
+}
