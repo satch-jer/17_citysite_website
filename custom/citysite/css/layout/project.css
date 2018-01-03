@@ -22,7 +22,7 @@ divide by 2 in mediaqueries
   slideshow is full width
   */
   /*
-  styling of project specs
+  styling of project-specs
   similar to kantlijn on article page
   */
   /*
@@ -43,18 +43,28 @@ divide by 2 in mediaqueries
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    .page-node-type-projectpagina .project-title h1 {
+      /*
+      give title white transparent bgc
+      make sure text is readable
+      */
+      width: 100%;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.5); }
   .page-node-type-projectpagina .project-intro,
   .page-node-type-projectpagina .project-detail {
     padding-left: 8.9%;
     padding-right: 4%; }
   .page-node-type-projectpagina .project-intro {
     /*
-    project intro has double spacing
+    project-intro has double spacing
     */
     margin-top: 17.8%;
     margin-bottom: 17.8%; }
     .page-node-type-projectpagina .project-intro .field--name-field-project-kenmerken {
       margin-top: 8.9%; }
+  .page-node-type-projectpagina .project-slider {
+    margin-bottom: 8.9%; }
   .page-node-type-projectpagina .project-specs {
     margin-bottom: 8.9%;
     /*
@@ -68,7 +78,10 @@ divide by 2 in mediaqueries
       .page-node-type-projectpagina .project-specs .field .field__label {
         width: 100px; }
   .page-node-type-projectpagina .project-desc {
-    margin-bottom: 12.9%;
+    /*
+    project-desc has double spacing
+    */
+    margin-bottom: 21.8%;
     /*
     little spacing between text and buttons
     */ }
@@ -86,6 +99,31 @@ media queries
   .page-node-type-projectpagina {
     /*
     smaller margin-bottom on bigger screens
-    */ } }
+    */
+    /*
+    project-detail is flex
+    child divs are placed next to each other
+    */ }
+    .page-node-type-projectpagina .project-intro {
+      /*
+      project-intro has double spacing
+      */
+      margin-top: 8.9%;
+      margin-bottom: 8.9%; }
+      .page-node-type-projectpagina .project-intro .field--name-field-project-kenmerken {
+        margin-top: 4.45%; }
+    .page-node-type-projectpagina .project-slider, .page-node-type-projectpagina .project-specs {
+      margin-bottom: 4.45%; }
+    .page-node-type-projectpagina .project-desc {
+      margin-bottom: 8.9%; }
+    .page-node-type-projectpagina .project-detail {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .page-node-type-projectpagina .project-detail .project-specs {
+        width: 30%;
+        margin-right: 4%; }
+      .page-node-type-projectpagina .project-detail .project-desc {
+        width: 70%; } }
 
 /*# sourceMappingURL=project.css.map */

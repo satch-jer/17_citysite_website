@@ -58,6 +58,11 @@ lowercase and lighter font
   .page-node-type-article {
     h1{
       font-size: 2.4rem;
+      /*
+      less padding because of bgi
+      */
+      padding-top: $medium/3;
+      padding-bottom: $medium/3;
     }
   }
 }

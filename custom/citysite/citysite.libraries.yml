@@ -21,6 +21,7 @@ global-styling:
       css/components/buttons.css: {}
     state:
       css/state/hamburger.css: {}
+      css/state/buttons.css: {}
   js:
     js/citysite.js: {}
   dependencies:
@@ -32,3 +33,27 @@ fader:
   version: 1
   js:
     js/fader.js: {}
+
+slick:
+  version: 1
+  css:
+    component:
+      css/components/slick.css: {}
+  js:
+    js/slick.min.js: {}
+    js/slick.config.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+fullslick:
+  version: 1
+  css:
+    component:
+      css/components/slick.css: {}
+  js:
+    js/slick.min.js: {}
+    js/fullslick.config.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

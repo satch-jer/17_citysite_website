@@ -21,7 +21,15 @@ styling of buttons on projectpagina
   background-color: #f2f2f2;
   display: inline;
   padding: 2%;
-  margin-right: 4%; }
+  margin-right: 4%;
+  /*
+  css3 animation on hover
+  hover in state
+  */
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
   .field--name-field-project-links div a {
     color: #101010;
     font-size: 1em;
@@ -29,5 +37,30 @@ styling of buttons on projectpagina
     bold buttons
     */
     font-weight: 500; }
+
+/*
+dots used on projectpage
+on slider with 3 images
+*/
+.slick-dots {
+  text-align: center; }
+  .slick-dots li {
+    display: inline;
+    margin: 0 2%; }
+
+@media screen and (min-width: 1024px) {
+  .field--name-field-project-links div {
+    padding: 1.3333333333%;
+    margin-right: 2%; }
+
+  /*
+dots used on projectpage
+on slider with 3 images
+*/
+  .slick-dots {
+    text-align: center; }
+    .slick-dots li {
+      display: inline;
+      margin: 0 1%; } }
 
 /*# sourceMappingURL=buttons.css.map */

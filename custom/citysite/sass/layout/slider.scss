@@ -3,6 +3,29 @@ layout/slider.css
 grid system of slider with 3 images
 ***/
 
+@import '../theme/dist';
 /*
-aim for satcher with 3 images
+aim for slider with 3 images
 */
+.js-slick-single-item-center{
+
+  img{
+    width: 100%;
+    height: auto;
+    padding-left: $small;
+    padding-right: $small;
+    margin-bottom: $small;
+  }
+}
+
+.js-slick-single-item{
+
+  img{
+    width: 100%;
+    height: auto;
+    /*
+    image is bigger, so smaller margin-bottom
+    */
+    margin-bottom: $small/2;
+  }
+}

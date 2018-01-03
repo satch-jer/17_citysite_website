@@ -18,7 +18,7 @@ divide by 2 in mediaqueries
   placing the page title
   */ }
   .page-node-type-article .block-page-title-block {
-    height: 60vh;
+    height: 80vh;
     width: 100vw;
     /*pattern bgc*/
     display: -webkit-box;
@@ -30,17 +30,20 @@ divide by 2 in mediaqueries
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    .page-node-type-article .block-page-title-block h1 {
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
   .page-node-type-article .node {
     padding-left: 8.9%;
     padding-right: 4%; }
     .page-node-type-article .node .field--name-field-artikel-kantlijn,
-    .page-node-type-article .node .field--name-field-artikel-tekst,
-    .page-node-type-article .node .slick,
-    .page-node-type-article .node .field--name-field-artikel-voetnoot {
+    .page-node-type-article .node .field--name-field-artikel-tekst {
       margin-bottom: 8.9%; }
+    .page-node-type-article .node .js-slick-single-item {
+      margin-bottom: 17.8%; }
     .page-node-type-article .node .field--name-field-artikel-voetnoot {
       padding-left: 4%;
-      padding-right: 4%; }
+      padding-right: 4%;
+      margin-bottom: 17.8%; }
 
 /***
 media queries
@@ -51,9 +54,10 @@ media queries
     smaller margin-bottom on bigger screens
     */ }
     .page-node-type-article .node .field--name-field-artikel-kantlijn,
-    .page-node-type-article .node .field--name-field-artikel-tekst,
-    .page-node-type-article .node .slick,
+    .page-node-type-article .node .field--name-field-artikel-tekst {
+      margin-bottom: 4.45%; }
+    .page-node-type-article .node .js-slick-single-item,
     .page-node-type-article .node .field--name-field-artikel-voetnoot {
-      margin-bottom: 4.45%; } }
+      margin-bottom: 8.9%; } }
 
 /*# sourceMappingURL=article.css.map */

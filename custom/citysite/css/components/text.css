@@ -52,7 +52,7 @@ kantlijn has different styling
     font-weight: 500; }
 
 /*
-styling of project specs
+styling of project-specs
 similar to kantlijn on article page
 */
 .project-specs {
@@ -65,7 +65,11 @@ similar to kantlijn on article page
   .project-specs .field, .project-specs p {
     font-size: .8rem;
     padding-bottom: 0%;
-    font-weight: 500; }
+    font-weight: 500;
+    color: #777777; }
+  .project-specs .field__label {
+    font-weight: 500;
+    color: #101010; }
 
 /*
 voetnoot has different styling
@@ -89,6 +93,22 @@ media queries
     font-size: .9rem; }
 
   .field--name-field-artikel-voetnoot p {
-    font-size: 1.7rem; } }
+    font-size: 1.7rem; }
+
+  /*
+  styling of project-specs
+  no border and padding for alignment
+  */
+  .project-specs {
+    /*
+    content has border
+    padding of p -> div
+    */
+    border: none;
+    padding: 0; }
+    .project-specs .field, .project-specs p {
+      font-size: .8rem;
+      padding-bottom: 0%;
+      font-weight: 500; } }
 
 /*# sourceMappingURL=text.css.map */

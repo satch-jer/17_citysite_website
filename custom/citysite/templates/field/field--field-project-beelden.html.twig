@@ -1,0 +1,14 @@
+{# Create classes array #}
+{% set classes = [
+'slideshow__slides',
+'js-slick-single-item-center',
+'slick--single-item-center'
+] %}
+
+{{ attach_library('citysite/slick') }}
+
+<ul {{ attributes.addClass(classes) }}>
+    {% for item in items %}
+        <li{{ item.attributes }}>{{ item.content }}</li>
+    {% endfor %}
+</ul>

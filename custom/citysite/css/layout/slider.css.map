@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA;;;IAGI;AAEJ;;EAEE",
-"sources": ["../../sass/layout/slider.scss"],
+"mappings": "AAAA;;;IAGI;ACHJ;;;IAGI;AAEJ;;;EAGE;ADFF;;EAEE;AAGA,gCAAG;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,YAAY,ECLR,EAAE;EDMN,aAAa,ECNT,EAAE;EDON,aAAa,ECPT,EAAE;;ADaR,yBAAG;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ;;IAEE;EACF,aAAa,EAAE,EAAQ",
+"sources": ["../../sass/layout/slider.scss","../../sass/theme/_dist.scss"],
 "names": [],
 "file": "slider.css"
 }

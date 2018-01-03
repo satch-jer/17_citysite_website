@@ -1,0 +1,34 @@
+/***
+state/buttons.css
+styling of buttons on hover/active
+***/
+
+/*
+dots used on projectpage
+on slider with 3 images
+*/
+
+@import "../theme/colors";
+@import "animations";
+
+/*
+dots on slider of project page
+active styling (other color + underlined)
+*/
+.slick-active{
+  button{
+    font-weight: 500;
+    text-decoration: underline;
+    color: $emperor;
+  }
+}
+
+/*
+styling of buttons on projectpagina
+active and hover state
+*/
+.field--name-field-project-links{
+  .field__item:hover{
+    background-color: $sulu;
+  }
+}

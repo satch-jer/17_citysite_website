@@ -30,6 +30,16 @@ aim for projectpage only
     -ms-flex-align: center;
 
     align-items: center;
+    
+    h1{
+      /*
+      give title white transparent bgc
+      make sure text is readable
+      */
+      width: 100%;
+      text-align: center;
+      background-color: rgba(255, 255,255,.5);
+    }
   }
 
   /*
@@ -44,7 +54,7 @@ aim for projectpage only
 
   .project-intro{
     /*
-    project intro has double spacing
+    project-intro has double spacing
     */
     margin-top: $medium*2;
     margin-bottom: $medium*2;
@@ -54,8 +64,12 @@ aim for projectpage only
     }
   }
 
+  .project-slider{
+    margin-bottom: $medium;
+  }
+
   /*
-  styling of project specs
+  styling of project-specs
   similar to kantlijn on article page
   */
   .project-specs{
@@ -77,7 +91,10 @@ aim for projectpage only
   }
 
   .project-desc{
-    margin-bottom: $medium+$small;
+    /*
+    project-desc has double spacing
+    */
+    margin-bottom: ($medium*2)+$small;
 
     /*
     little spacing between text and buttons
@@ -85,7 +102,6 @@ aim for projectpage only
     .field--name-field-project-beschrijving{
       margin-bottom: $small;
     }
-
   }
 
   /*
@@ -110,7 +126,43 @@ media queries
     /*
     smaller margin-bottom on bigger screens
     */
-    .node{
+    .project-intro {
+      /*
+      project-intro has double spacing
+      */
+      margin-top: $medium;
+      margin-bottom: $medium;
+
+      .field--name-field-project-kenmerken{
+        margin-top: $medium/2;
+      }
+    }
+
+    .project-slider, .project-specs{
+      margin-bottom: $medium/2;
+    }
+
+    .project-desc{
+      margin-bottom: $medium;
+    }
+
+    /*
+    project-detail is flex
+    child divs are placed next to each other
+    */
+    .project-detail{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+
+      .project-specs{
+        width: 30%;
+        margin-right: $small;
+      }
+
+      .project-desc{
+        width: 70%;
+      }
     }
   }
 }

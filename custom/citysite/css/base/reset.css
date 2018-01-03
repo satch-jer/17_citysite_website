@@ -20,4 +20,11 @@ a {
   text-decoration: none;
   color: #101010; }
 
+/*
+buttons
+remove blue border
+*/
+button:focus {
+  outline: none; }
+
 /*# sourceMappingURL=reset.css.map */

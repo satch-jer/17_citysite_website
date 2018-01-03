@@ -46,7 +46,7 @@ kantlijn has different styling
 }
 
 /*
-styling of project specs
+styling of project-specs
 similar to kantlijn on article page
 */
 .project-specs{
@@ -61,6 +61,12 @@ similar to kantlijn on article page
     font-size: .8rem;
     padding-bottom: 0%;
     font-weight: 500;
+    color: $emperor;
+  }
+
+  .field__label{
+    font-weight: 500;
+    color: $black;
   }
 }
 
@@ -95,6 +101,25 @@ media queries
   .field--name-field-artikel-voetnoot{
     p{
       font-size: 1.7rem;
+    }
+  }
+
+  /*
+  styling of project-specs
+  no border and padding for alignment
+  */
+  .project-specs{
+    /*
+    content has border
+    padding of p -> div
+    */
+    border: none;
+    padding: 0;
+
+    .field, p{
+      font-size: .8rem;
+      padding-bottom: 0%;
+      font-weight: 500;
     }
   }
 }

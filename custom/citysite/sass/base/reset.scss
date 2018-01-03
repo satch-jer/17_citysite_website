@@ -20,3 +20,11 @@ a{
   text-decoration: none;
   color: $black;
 }
+
+/*
+buttons
+remove blue border
+*/
+button:focus{
+  outline: none;
+}

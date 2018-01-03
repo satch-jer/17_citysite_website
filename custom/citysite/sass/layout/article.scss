@@ -15,7 +15,7 @@ aim for article page only
   placing the page title
   */
   .block-page-title-block{
-    height: 60vh;
+    height: 80vh;
     width: 100vw; /*pattern bgc*/
 
     display: -webkit-box;
@@ -30,6 +30,11 @@ aim for article page only
     -ms-flex-align: center;
 
     align-items: center;
+
+    h1{
+      // slanted edge here
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    }
   }
 
   .node{
@@ -37,15 +42,18 @@ aim for article page only
     padding-right: $small;
 
     .field--name-field-artikel-kantlijn,
-    .field--name-field-artikel-tekst,
-    .slick,
-    .field--name-field-artikel-voetnoot{
+    .field--name-field-artikel-tekst {
       margin-bottom: $medium;
+    }
+
+    .js-slick-single-item{
+      margin-bottom: $medium*2;
     }
 
     .field--name-field-artikel-voetnoot{
       padding-left: $small;
       padding-right: $small;
+      margin-bottom: $medium*2
     }
 
   }
@@ -62,10 +70,13 @@ media queries
     */
     .node{
       .field--name-field-artikel-kantlijn,
-      .field--name-field-artikel-tekst,
-      .slick,
-      .field--name-field-artikel-voetnoot{
+      .field--name-field-artikel-tekst{
         margin-bottom: $medium / 2;
+      }
+
+      .js-slick-single-item,
+      .field--name-field-artikel-voetnoot{
+        margin-bottom: $medium;
       }
     }
   }
