@@ -1,0 +1,19 @@
+/***
+state/navigation.css
+styling of navigation links (active/hover)
+***/
+
+@import '_links.scss';
+
+nav{
+  li{
+    /*
+    link that is active
+    links that are hovered
+    */
+    .is-active,
+    a:hover{
+      @extend .active-hover;
+    }
+  }
+}

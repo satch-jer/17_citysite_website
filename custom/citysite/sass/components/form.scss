@@ -1,0 +1,62 @@
+/***
+components/form.css
+styling of contact forms
+***/
+
+@import '../theme/colors';
+@import "../theme/dist";
+
+.webform-submission-contact-form{
+
+  /*
+  hide labels
+  think about the screenreader
+  */
+  label{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+  }
+
+  /*
+  input fields
+  styling similar to buttons.css
+  */
+  input, textarea{
+    width: 100%;
+    background-color: #fff;
+    font-size: .8rem;
+    padding: $small/2;
+    margin-bottom: $small;
+  }
+
+  /*
+  no resize for textarea
+  */
+  textarea{
+    resize: none;
+  }
+
+  /*
+  different styling for submit button
+  */
+  input[type="submit"] {
+    background-color: $concrete;
+    font-weight: 500;
+    width: 50%;
+
+    /*
+    css3 animation on hover
+    css of hover in state-folder
+    */
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+  }
+}

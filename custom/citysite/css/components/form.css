@@ -1,0 +1,60 @@
+/***
+components/form.css
+styling of contact forms
+***/
+/***
+theme/_fonts.css
+building our color palette
+***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+.webform-submission-contact-form {
+  /*
+  hide labels
+  think about the screenreader
+  */
+  /*
+  input fields
+  styling similar to buttons.css
+  */
+  /*
+  no resize for textarea
+  */
+  /*
+  different styling for submit button
+  */ }
+  .webform-submission-contact-form label {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden; }
+  .webform-submission-contact-form input, .webform-submission-contact-form textarea {
+    width: 100%;
+    background-color: #fff;
+    font-size: .8rem;
+    padding: 2%;
+    margin-bottom: 4%; }
+  .webform-submission-contact-form textarea {
+    resize: none; }
+  .webform-submission-contact-form input[type="submit"] {
+    background-color: #f2f2f2;
+    font-weight: 500;
+    width: 50%;
+    /*
+    css3 animation on hover
+    css of hover in state-folder
+    */
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,12 @@
+/***
+state/_links.css
+default hover/active styling
+***/
+
+@import '../theme/colors';
+
+.active-hover{
+  font-weight: 500;
+  text-decoration: underline;
+  color: $emperor;
+}

@@ -2,6 +2,14 @@
 components/hamburger.css
 styling of hamburger menu
 ***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
 .field--name-field-linkblok-link {
   /*
   little padding for alignment with logo

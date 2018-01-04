@@ -6,6 +6,9 @@ purely visual styling
 theme/_fonts.css
 building our color palette
 ***/
+html, body {
+  height: 100%; }
+
 body {
   font-size: 62.5%;
   /*** rem holy hack ***/

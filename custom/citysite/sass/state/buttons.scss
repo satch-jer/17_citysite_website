@@ -10,6 +10,7 @@ on slider with 3 images
 
 @import "../theme/colors";
 @import "animations";
+@import "links";
 
 /*
 dots on slider of project page
@@ -17,9 +18,13 @@ active styling (other color + underlined)
 */
 .slick-active{
   button{
-    font-weight: 500;
-    text-decoration: underline;
-    color: $emperor;
+    @extend .active-hover;
+  }
+}
+
+.slick-dots{
+  button:hover{
+    @extend .active-hover;
   }
 }
 

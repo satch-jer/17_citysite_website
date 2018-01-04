@@ -27,4 +27,8 @@ remove blue border
 button:focus {
   outline: none; }
 
+input:focus,
+textarea:focus {
+  outline: none; }
+
 /*# sourceMappingURL=reset.css.map */

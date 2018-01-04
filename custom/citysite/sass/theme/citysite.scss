@@ -5,6 +5,10 @@ purely visual styling
 
 @import "colors";
 
+html, body{
+  height: 100%;
+}
+
 body{
   font-size: 62.5%; /*** rem holy hack ***/
   color: $black;

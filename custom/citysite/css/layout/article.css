@@ -35,10 +35,11 @@ divide by 2 in mediaqueries
   .page-node-type-article .node {
     padding-left: 8.9%;
     padding-right: 4%; }
-    .page-node-type-article .node .field--name-field-artikel-kantlijn,
-    .page-node-type-article .node .field--name-field-artikel-tekst {
+    .page-node-type-article .node .field--name-field-artikel-kantlijn {
       margin-bottom: 8.9%; }
-    .page-node-type-article .node .js-slick-single-item {
+    .page-node-type-article .node .js-slick-single-item,
+    .page-node-type-article .node .field--name-field-artikel-tekst,
+    .page-node-type-article .node .field--name-field-artikel-contact {
       margin-bottom: 17.8%; }
     .page-node-type-article .node .field--name-field-artikel-voetnoot {
       padding-left: 4%;
@@ -53,11 +54,12 @@ media queries
     /*
     smaller margin-bottom on bigger screens
     */ }
-    .page-node-type-article .node .field--name-field-artikel-kantlijn,
-    .page-node-type-article .node .field--name-field-artikel-tekst {
+    .page-node-type-article .node .field--name-field-artikel-kantlijn {
       margin-bottom: 4.45%; }
     .page-node-type-article .node .js-slick-single-item,
-    .page-node-type-article .node .field--name-field-artikel-voetnoot {
+    .page-node-type-article .node .field--name-field-artikel-voetnoot,
+    .page-node-type-article .node .field--name-field-artikel-tekst,
+    .page-node-type-article .node .field--name-field-artikel-contact {
       margin-bottom: 8.9%; } }
 
 /*# sourceMappingURL=article.css.map */

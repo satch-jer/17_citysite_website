@@ -18,7 +18,7 @@ styling of buttons on projectpagina
 
     /*
     css3 animation on hover
-    hover in state
+    css of hover in state-folder
     */
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -27,7 +27,7 @@ styling of buttons on projectpagina
 
     a{
       color: $black;
-      font-size: 1em;
+      font-size: .8rem;
       /*
       bold buttons
       */
@@ -45,6 +45,17 @@ on slider with 3 images
   li{
     display: inline;
     margin: 0 $small/2;
+
+    button{
+      /*
+      css3 animation on hover
+      css of hover in state-folder
+      */
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+    }
   }
 }
 

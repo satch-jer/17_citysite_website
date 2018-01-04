@@ -41,12 +41,13 @@ aim for article page only
     padding-left: $medium;
     padding-right: $small;
 
-    .field--name-field-artikel-kantlijn,
-    .field--name-field-artikel-tekst {
+    .field--name-field-artikel-kantlijn{
       margin-bottom: $medium;
     }
 
-    .js-slick-single-item{
+    .js-slick-single-item,
+    .field--name-field-artikel-tekst,
+    .field--name-field-artikel-contact{
       margin-bottom: $medium*2;
     }
 
@@ -69,13 +70,14 @@ media queries
     smaller margin-bottom on bigger screens
     */
     .node{
-      .field--name-field-artikel-kantlijn,
-      .field--name-field-artikel-tekst{
+      .field--name-field-artikel-kantlijn{
         margin-bottom: $medium / 2;
       }
 
       .js-slick-single-item,
-      .field--name-field-artikel-voetnoot{
+      .field--name-field-artikel-voetnoot,
+      .field--name-field-artikel-tekst,
+      .field--name-field-artikel-contact{
         margin-bottom: $medium;
       }
     }

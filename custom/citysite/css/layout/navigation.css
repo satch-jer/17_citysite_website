@@ -1,0 +1,48 @@
+/***
+layout/navigation.css
+styling of navigation overlay
+***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+/*
+aim for navigation
+*/
+.block-menu {
+  /*
+  navigation is hidden on load
+  */
+  display: none;
+  /*
+  navigation in overlay on top
+  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  /*
+  and 100% width + height
+  */
+  width: 100vw;
+  height: 100vh;
+  /*
+  give it transparant bgc
+  */
+  background-color: rgba(255, 255, 255, 0.95);
+  /*
+  ul is placed right
+  */ }
+  .block-menu ul {
+    text-align: right;
+    /*
+    we have the hamburger button
+    */
+    margin-top: 35.6%;
+    margin-right: 4%; }
+
+/*# sourceMappingURL=navigation.css.map */

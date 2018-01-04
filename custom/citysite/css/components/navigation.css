@@ -1,0 +1,31 @@
+/***
+layout/navigation.css
+styling of navigation links
+***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+/*
+links in navigation
+same as p but bold
+*/
+nav li {
+  margin-bottom: 4%; }
+nav a {
+  font-size: 1rem;
+  font-weight: 500;
+  /*
+  css3 animation on hover
+  css of hover in state-folder
+  */
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
+
+/*# sourceMappingURL=navigation.css.map */

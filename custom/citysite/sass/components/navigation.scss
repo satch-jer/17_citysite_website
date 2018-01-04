@@ -1,0 +1,31 @@
+/***
+layout/navigation.css
+styling of navigation links
+***/
+
+@import "../theme/dist";
+
+
+/*
+links in navigation
+same as p but bold
+*/
+nav{
+  li{
+    margin-bottom: $small;
+  }
+
+  a{
+    font-size: 1rem;
+    font-weight: 500;
+
+    /*
+    css3 animation on hover
+    css of hover in state-folder
+    */
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+}

@@ -24,7 +24,7 @@ styling of buttons on projectpagina
   margin-right: 4%;
   /*
   css3 animation on hover
-  hover in state
+  css of hover in state-folder
   */
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
@@ -32,7 +32,7 @@ styling of buttons on projectpagina
   transition: all .5s ease; }
   .field--name-field-project-links div a {
     color: #101010;
-    font-size: 1em;
+    font-size: .8rem;
     /*
     bold buttons
     */
@@ -47,6 +47,15 @@ on slider with 3 images
   .slick-dots li {
     display: inline;
     margin: 0 2%; }
+    .slick-dots li button {
+      /*
+      css3 animation on hover
+      css of hover in state-folder
+      */
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease; }
 
 @media screen and (min-width: 1024px) {
   .field--name-field-project-links div {

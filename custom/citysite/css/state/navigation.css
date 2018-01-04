@@ -1,0 +1,25 @@
+/***
+state/navigation.css
+styling of navigation links (active/hover)
+***/
+/***
+state/_links.css
+default hover/active styling
+***/
+/***
+theme/_fonts.css
+building our color palette
+***/
+.active-hover, nav li .is-active,
+nav li a:hover {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #777777; }
+
+nav li {
+  /*
+  link that is active
+  links that are hovered
+  */ }
+
+/*# sourceMappingURL=navigation.css.map */

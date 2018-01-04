@@ -1,0 +1,59 @@
+/***
+components/form.css
+styling of contact forms on hover/active
+***/
+
+@import '../theme/colors';
+@import "../theme/dist";
+
+.webform-submission-contact-form{
+
+  textarea:focus,
+  input:focus{
+    border: 1px solid $concrete;
+  }
+
+  /*
+  submit button on hover
+  */
+  input[type="submit"]:hover{
+    background-color: $sulu;
+  }
+
+  /*
+  overrule border on focus
+  */
+  input[type="submit"]:active{
+    border: none;
+    background-color: $sulu;
+  }
+
+  .messages--error{
+    margin-bottom: $small;
+  }
+
+  .form-item--error-message{
+    margin-bottom: $small;
+    color: red;
+  }
+
+  .error{
+    border: 1px solid red;
+  }
+
+  .js-webform-confirmation-back-link-ajax{
+    /*
+      css3 animation on hover
+      css of hover in state-folder
+      */
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+
+  .js-webform-confirmation-back-link-ajax:hover{
+    text-decoration: underline;
+  }
+
+}

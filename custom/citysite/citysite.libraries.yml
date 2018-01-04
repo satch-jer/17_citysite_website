@@ -12,6 +12,7 @@ global-styling:
       css/layout/article.css: {}
       css/layout/project.css: {}
       css/layout/slider.css: {}
+      css/layout/navigation.css: {}
     components:
       css/components/titles.css: {}
       css/components/text.css: {}
@@ -19,9 +20,13 @@ global-styling:
       css/components/navfoot.css: {}
       css/components/tags.css: {}
       css/components/buttons.css: {}
+      css/components/navigation.css: {}
+      css/components/form.css: {}
     state:
       css/state/hamburger.css: {}
       css/state/buttons.css: {}
+      css/state/navigation.css: {}
+      css/state/form.css: {}
   js:
     js/citysite.js: {}
   dependencies:
@@ -33,6 +38,11 @@ fader:
   version: 1
   js:
     js/fader.js: {}
+
+navigation:
+  version: 1
+  js:
+    js/navigation.js: {}
 
 slick:
   version: 1

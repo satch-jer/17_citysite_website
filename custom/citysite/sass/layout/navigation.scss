@@ -1,0 +1,48 @@
+/***
+layout/navigation.css
+styling of navigation overlay
+***/
+
+@import "../theme/dist";
+
+/*
+aim for navigation
+*/
+.block-menu{
+  /*
+  navigation is hidden on load
+  */
+  display: none;
+
+  /*
+  navigation in overlay on top
+  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+
+  /*
+  and 100% width + height
+  */
+  width: 100vw;
+  height: 100vh;
+
+  /*
+  give it transparant bgc
+  */
+  background-color: rgba(255,255,255,0.95);
+
+  /*
+  ul is placed right
+  */
+  ul{
+    text-align: right;
+    /*
+    we have the hamburger button
+    */
+    margin-top: $medium*4;
+    margin-right: $small;
+  }
+
+}

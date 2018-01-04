@@ -88,15 +88,23 @@ Sweep To Left
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
-/*
-dots on slider of project page
-active styling (other color + underlined)
-*/
-.slick-active button {
+/***
+state/_links.css
+default hover/active styling
+***/
+/***
+theme/_fonts.css
+building our color palette
+***/
+.active-hover, .slick-active button, .slick-dots button:hover {
   font-weight: 500;
   text-decoration: underline;
   color: #777777; }
 
+/*
+dots on slider of project page
+active styling (other color + underlined)
+*/
 /*
 styling of buttons on projectpagina
 active and hover state
