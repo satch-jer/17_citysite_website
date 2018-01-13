@@ -1,5 +1,5 @@
 /***
-layout/front.css
+layout/article.css
 grid system of article page
 ***/
 
@@ -15,7 +15,7 @@ aim for article page only
   placing the page title
   */
   .block-page-title-block{
-    height: 80vh;
+    height: 50vh;
     width: 100vw; /*pattern bgc*/
 
     display: -webkit-box;
@@ -52,9 +52,13 @@ aim for article page only
     }
 
     .field--name-field-artikel-voetnoot{
+      max-width: 1200px;
+      margin: 0 auto $medium*2 auto;
+
       padding-left: $small;
       padding-right: $small;
-      margin-bottom: $medium*2
+
+      text-align: center;
     }
 
   }

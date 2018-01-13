@@ -19,10 +19,12 @@ h1,
 }
 
 /*
-title on article page is
-lowercase and lighter font
+title on article page + overzichtspagina
+is lowercase and lighter font
++ full width for background pattern!
 */
-.page-node-type-article {
+.page-node-type-article,
+.page-node-type-overzichtspagina{
   h1{
     text-transform: lowercase;
     font-size: 1.6rem;
@@ -55,7 +57,8 @@ media queries
 title on article page is
 lowercase and lighter font
 */
-  .page-node-type-article {
+  .page-node-type-article,
+  .page-node-type-overzichtspagina {
     h1{
       font-size: 2.4rem;
       /*

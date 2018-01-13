@@ -1,0 +1,29 @@
+/***
+components/filter.css
+styling of filter elements
+***/
+
+@import "../theme/dist";
+
+.bef-exposed-form{
+  /*
+  hide legend
+  think about the screenreader
+  */
+  font-size: 0.8rem;
+
+  legend{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+  }
+
+  .js-form-type-checkbox{
+    display: inline-block;
+    padding-bottom: $small/3;
+    padding-right: $small/3;
+  }
+}

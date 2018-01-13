@@ -1,0 +1,144 @@
+/***
+layout/overzichtspagina.css
+grid system of overzichtspagina
+***/
+
+/*
+aim for overzichtspagina only
+*/
+
+@import "../theme/dist";
+@import "../theme/colors";
+
+.page-node-type-overzichtspagina{
+
+  /*
+  placing the page title
+  */
+  .block-page-title-block{
+    height: 50vh;
+    width: 100vw; /*pattern bgc*/
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    align-items: center;
+
+    h1{
+      // slanted edge here
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    }
+  }
+
+  .region-content{
+    padding-left: $medium;
+    padding-right: $small;
+    /*
+    content has bottom margin
+    cfr article and other pages
+    */
+    margin-bottom: $medium * 2;
+  }
+
+  /*
+  filters are on the right side
+  of the screen
+  */
+  .view-filters{
+    width: 75%;
+    margin-left: auto;
+    margin-bottom: $medium;
+
+    /*
+    content of filter-div has to be full width
+    */
+    fieldset{
+      width: 100%;
+      text-align: right;
+    }
+  }
+
+  .views-row{
+    position: relative;
+    margin-bottom: $medium;
+    overflow: hidden;
+
+    img{
+      width: 100%;
+      height: auto;
+      opacity: 0.5;
+      /*
+      hack to remove def white space under img
+      */
+      vertical-align:bottom
+    }
+  }
+
+  .views-field-title{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    /*
+    center title on image
+    flexbox because img has flex height
+    */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    align-items: center;
+  }
+}
+
+/***
+media queries
+***/
+@media screen and (min-width: 768px) {
+  /*
+  image grid goes masonry
+  */
+  .page-node-type-overzichtspagina{
+    /*
+    display flex
+    */
+    .view-content{
+      display: flex;
+    }
+    /*
+    2 images next to each other
+    */
+    .views-row,
+    .field__items{
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .page-node-type-overzichtspagina{
+    .region-content{
+      /*
+      cfr article page
+      */
+      margin-bottom: $medium;
+    }
+  }
+}

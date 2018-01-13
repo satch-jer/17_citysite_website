@@ -29,6 +29,37 @@ active styling (other color + underlined)
 }
 
 /*
+styling of overlay button
+active and hover state
+*/
+.view-projecten{
+  .views-field-title{
+    a:hover{
+
+      color: $chathamsblue;
+      background-color: rgba(255,255,255,0.5);
+      
+      /*
+      css3 animation on hover
+      css of hover in state-folder
+      */
+    }
+  }
+
+  .views-row:hover{
+    img{
+      opacity: 1;
+    }
+
+    .views-field-title{
+      a{
+        visibility: visible;
+      }
+    }
+  }
+}
+
+/*
 styling of buttons on projectpagina
 active and hover state
 */

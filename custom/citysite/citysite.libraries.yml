@@ -13,6 +13,7 @@ global-styling:
       css/layout/project.css: {}
       css/layout/slider.css: {}
       css/layout/navigation.css: {}
+      css/layout/overzicht.css: {}
     components:
       css/components/titles.css: {}
       css/components/text.css: {}
@@ -22,6 +23,7 @@ global-styling:
       css/components/buttons.css: {}
       css/components/navigation.css: {}
       css/components/form.css: {}
+      css/components/filter.css: {}
     state:
       css/state/hamburger.css: {}
       css/state/buttons.css: {}
@@ -43,6 +45,22 @@ navigation:
   version: 1
   js:
     js/navigation.js: {}
+
+autosubmit:
+  version: 1
+  js:
+    js/autosubmit.js: {}
+
+background:
+  version: 1
+  js:
+    js/background.js: {}
+
+masonry:
+  version: 1
+  js:
+    https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js: {}
+    js/masonry.js: {}
 
 slick:
   version: 1

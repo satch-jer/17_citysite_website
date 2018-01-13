@@ -45,4 +45,19 @@ aim for navigation
     margin-top: 35.6%;
     margin-right: 4%; }
 
+@media screen and (min-width: 650px) {
+  .block-menu ul {
+    text-align: right;
+    /*
+    we have the hamburger button
+    */
+    margin-top: 17.8%; } }
+@media screen and (min-width: 1300px) {
+  .block-menu ul {
+    text-align: right;
+    /*
+    we have the hamburger button
+    */
+    margin-top: 8.9%; } }
+
 /*# sourceMappingURL=navigation.css.map */

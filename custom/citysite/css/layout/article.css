@@ -1,5 +1,5 @@
 /***
-layout/front.css
+layout/article.css
 grid system of article page
 ***/
 /*
@@ -18,7 +18,7 @@ divide by 2 in mediaqueries
   placing the page title
   */ }
   .page-node-type-article .block-page-title-block {
-    height: 80vh;
+    height: 50vh;
     width: 100vw;
     /*pattern bgc*/
     display: -webkit-box;
@@ -42,9 +42,11 @@ divide by 2 in mediaqueries
     .page-node-type-article .node .field--name-field-artikel-contact {
       margin-bottom: 17.8%; }
     .page-node-type-article .node .field--name-field-artikel-voetnoot {
+      max-width: 1200px;
+      margin: 0 auto 17.8% auto;
       padding-left: 4%;
       padding-right: 4%;
-      margin-bottom: 17.8%; }
+      text-align: center; }
 
 /***
 media queries

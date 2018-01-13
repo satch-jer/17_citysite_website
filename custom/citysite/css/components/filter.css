@@ -1,0 +1,31 @@
+/***
+components/filter.css
+styling of filter elements
+***/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+.bef-exposed-form {
+  /*
+  hide legend
+  think about the screenreader
+  */
+  font-size: 0.8rem; }
+  .bef-exposed-form legend {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden; }
+  .bef-exposed-form .js-form-type-checkbox {
+    display: inline-block;
+    padding-bottom: 1.3333333333%;
+    padding-right: 1.3333333333%; }
+
+/*# sourceMappingURL=filter.css.map */

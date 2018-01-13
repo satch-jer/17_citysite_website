@@ -106,6 +106,22 @@ dots on slider of project page
 active styling (other color + underlined)
 */
 /*
+styling of overlay button
+active and hover state
+*/
+.view-projecten .views-field-title a:hover {
+  color: #14376b;
+  background-color: rgba(255, 255, 255, 0.5);
+  /*
+  css3 animation on hover
+  css of hover in state-folder
+  */ }
+.view-projecten .views-row:hover img {
+  opacity: 1; }
+.view-projecten .views-row:hover .views-field-title a {
+  visibility: visible; }
+
+/*
 styling of buttons on projectpagina
 active and hover state
 */

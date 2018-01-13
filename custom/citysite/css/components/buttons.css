@@ -57,14 +57,30 @@ on slider with 3 images
       -o-transition: all .5s ease;
       transition: all .5s ease; }
 
+/*
+styling of overlay button
+overview page
+*/
+.view-projecten .views-field-title a {
+  visibility: hidden;
+  display: inline-block;
+  padding: 8.9%;
+  background-color: #14376b;
+  color: #ffffff;
+  font-size: .8rem;
+  font-weight: 700;
+  font-family: "Barlow Condensed", Sans-Serif;
+  border: 1px solid #14376b;
+  border-radius: 15px; }
+
 @media screen and (min-width: 1024px) {
   .field--name-field-project-links div {
     padding: 1.3333333333%;
     margin-right: 2%; }
 
-  /*
-dots used on projectpage
-on slider with 3 images
+ /*
+ dots used on projectpage
+ on slider with 3 images
 */
   .slick-dots {
     text-align: center; }

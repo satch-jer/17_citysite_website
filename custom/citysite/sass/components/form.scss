@@ -7,7 +7,6 @@ styling of contact forms
 @import "../theme/dist";
 
 .webform-submission-contact-form{
-
   /*
   hide labels
   think about the screenreader
@@ -58,5 +57,20 @@ styling of contact forms
     -o-transition: all .5s ease;
     transition: all .5s ease;
 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .webform-submission-contact-form{
+    /*
+    input fields
+    styling similar to buttons.css
+    */
+    input, textarea{
+      width: 75%;
+      font-size: .8rem;
+      padding: $small/4;
+      margin-bottom: $small/2;
+    }
   }
 }

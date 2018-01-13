@@ -1,0 +1,119 @@
+/***
+layout/overzichtspagina.css
+grid system of overzichtspagina
+***/
+/*
+aim for overzichtspagina only
+*/
+/***
+theme/_dist.css
+defining paddings and margins
+***/
+/*
+top and left margin
+divide by 2 in mediaqueries
+*/
+/***
+theme/_fonts.css
+building our color palette
+***/
+.page-node-type-overzichtspagina {
+  /*
+  placing the page title
+  */
+  /*
+  filters are on the right side
+  of the screen
+  */ }
+  .page-node-type-overzichtspagina .block-page-title-block {
+    height: 50vh;
+    width: 100vw;
+    /*pattern bgc*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .page-node-type-overzichtspagina .block-page-title-block h1 {
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
+  .page-node-type-overzichtspagina .region-content {
+    padding-left: 8.9%;
+    padding-right: 4%;
+    /*
+    content has bottom margin
+    cfr article and other pages
+    */
+    margin-bottom: 17.8%; }
+  .page-node-type-overzichtspagina .view-filters {
+    width: 75%;
+    margin-left: auto;
+    margin-bottom: 8.9%;
+    /*
+    content of filter-div has to be full width
+    */ }
+    .page-node-type-overzichtspagina .view-filters fieldset {
+      width: 100%;
+      text-align: right; }
+  .page-node-type-overzichtspagina .views-row {
+    position: relative;
+    margin-bottom: 8.9%;
+    overflow: hidden; }
+    .page-node-type-overzichtspagina .views-row img {
+      width: 100%;
+      height: auto;
+      opacity: 0.5;
+      /*
+      hack to remove def white space under img
+      */
+      vertical-align: bottom; }
+  .page-node-type-overzichtspagina .views-field-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*
+    center title on image
+    flexbox because img has flex height
+    */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+/***
+media queries
+***/
+@media screen and (min-width: 768px) {
+  /*
+  image grid goes masonry
+  */
+  .page-node-type-overzichtspagina {
+    /*
+    display flex
+    */
+    /*
+    2 images next to each other
+    */ }
+    .page-node-type-overzichtspagina .view-content {
+      display: flex; }
+    .page-node-type-overzichtspagina .views-row,
+    .page-node-type-overzichtspagina .field__items {
+      width: 50%;
+      margin-bottom: 0; } }
+@media screen and (min-width: 1024px) {
+  .page-node-type-overzichtspagina .region-content {
+    /*
+    cfr article page
+    */
+    margin-bottom: 8.9%; } }
+
+/*# sourceMappingURL=overzicht.css.map */

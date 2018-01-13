@@ -57,4 +57,16 @@ divide by 2 in mediaqueries
     -o-transition: all .5s ease;
     transition: all .5s ease; }
 
+@media screen and (min-width: 1024px) {
+  .webform-submission-contact-form {
+    /*
+    input fields
+    styling similar to buttons.css
+    */ }
+    .webform-submission-contact-form input, .webform-submission-contact-form textarea {
+      width: 75%;
+      font-size: .8rem;
+      padding: 1%;
+      margin-bottom: 2%; } }
+
 /*# sourceMappingURL=form.css.map */

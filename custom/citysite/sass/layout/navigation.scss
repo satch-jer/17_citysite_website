@@ -44,5 +44,30 @@ aim for navigation
     margin-top: $medium*4;
     margin-right: $small;
   }
-
 }
+
+@media screen and (min-width: 650px) {
+  .block-menu {
+    ul {
+      text-align: right;
+      /*
+      we have the hamburger button
+      */
+      margin-top: $medium*2;
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .block-menu {
+    ul {
+      text-align: right;
+      /*
+      we have the hamburger button
+      */
+      margin-top: $medium;
+    }
+  }
+}
+
+

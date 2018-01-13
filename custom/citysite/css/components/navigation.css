@@ -28,4 +28,11 @@ nav a {
   -o-transition: all .5s ease;
   transition: all .5s ease; }
 
+/*
+media query for padding between nav items
+*/
+@media screen and (min-width: 1024px) {
+  nav li {
+    margin-bottom: 2%; } }
+
 /*# sourceMappingURL=navigation.css.map */
