@@ -18,7 +18,7 @@ divide by 2 in mediaqueries
   placing the page title
   */ }
   .page-node-type-article .block-page-title-block {
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     /*pattern bgc*/
     display: -webkit-box;
@@ -35,11 +35,10 @@ divide by 2 in mediaqueries
   .page-node-type-article .node {
     padding-left: 8.9%;
     padding-right: 4%; }
-    .page-node-type-article .node .field--name-field-artikel-kantlijn {
+    .page-node-type-article .node .article-side {
       margin-bottom: 8.9%; }
     .page-node-type-article .node .js-slick-single-item,
-    .page-node-type-article .node .field--name-field-artikel-tekst,
-    .page-node-type-article .node .field--name-field-artikel-contact {
+    .page-node-type-article .node .article-content {
       margin-bottom: 17.8%; }
     .page-node-type-article .node .field--name-field-artikel-voetnoot {
       max-width: 1200px;
@@ -56,12 +55,23 @@ media queries
     /*
     smaller margin-bottom on bigger screens
     */ }
-    .page-node-type-article .node .field--name-field-artikel-kantlijn {
-      margin-bottom: 4.45%; }
-    .page-node-type-article .node .js-slick-single-item,
-    .page-node-type-article .node .field--name-field-artikel-voetnoot,
-    .page-node-type-article .node .field--name-field-artikel-tekst,
-    .page-node-type-article .node .field--name-field-artikel-contact {
-      margin-bottom: 8.9%; } }
+    .page-node-type-article .node {
+      /**/ }
+      .page-node-type-article .node .article-detail {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1400px;
+        margin: 0 auto; }
+        .page-node-type-article .node .article-detail .article-side {
+          width: 25%;
+          margin-right: 4%; }
+        .page-node-type-article .node .article-detail .article-content {
+          width: 75%; }
+      .page-node-type-article .node .js-slick-single-item,
+      .page-node-type-article .node .article-content {
+        margin-bottom: 8.9%; }
+      .page-node-type-article .node .article-side {
+        margin-bottom: 0; } }
 
 /*# sourceMappingURL=article.css.map */

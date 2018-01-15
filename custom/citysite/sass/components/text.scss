@@ -7,6 +7,17 @@ styling of text
 @import "../theme/colors";
 @import "../theme/dist";
 
+/*
+styling of ul in text/paragraphs
+*/
+.field--type-text-long{
+  ul{
+    font-size: 1rem;
+    font-weight: 300;
+
+    padding: $small $medium 0 $medium;
+  }
+}
 
 p{
   font-size: 1rem;
@@ -29,27 +40,10 @@ green class inline with text
 }
 
 /*
-kantlijn has different styling
+styling of project-specs and kantlijn
 */
-.field--name-field-artikel-kantlijn{
-  /*
-  content has border
-  padding of p -> div
-  */
-  border: 1px solid $black;
-  padding: $small / 2;
-  p{
-    font-size: .8rem;
-    padding-bottom: 0%;
-    font-weight: 500;
-  }
-}
-
-/*
-styling of project-specs
-similar to kantlijn on article page
-*/
-.project-specs{
+.project-specs,
+.article-side{
   /*
   content has border
   padding of p -> div
@@ -84,9 +78,18 @@ project-intro shares same styling
 }
 
 /***
-media queries
+media queries starting smaller
 ***/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  /*
+  styling of ul in text/paragraphs
+  */
+  .field--type-text-long{
+    ul{
+      font-size: 1.1rem;
+      padding: $small/2 $medium/2 $small $medium/2;
+    }
+  }
   p{
     padding-bottom: $small / 2;
     font-size: 1.1rem;
@@ -108,7 +111,7 @@ media queries
   styling of project-specs
   no border and padding for alignment
   */
-  .project-specs{
+  .project-specs, .article-side{
     /*
     content has border
     padding of p -> div

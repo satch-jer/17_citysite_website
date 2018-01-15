@@ -64,7 +64,6 @@ divide by 2 in mediaqueries
     styling similar to buttons.css
     */ }
     .webform-submission-contact-form input, .webform-submission-contact-form textarea {
-      width: 75%;
       font-size: .8rem;
       padding: 1%;
       margin-bottom: 2%; } }

@@ -61,19 +61,26 @@ on slider with 3 images
 styling of overlay button
 overview page
 */
-.view-projecten .views-field-title a {
+.view-projecten .views-field-title a,
+.view-realisaties .views-field-title a {
   visibility: hidden;
   display: inline-block;
-  padding: 8.9%;
+  padding: 8.9% 17.8%;
   background-color: #14376b;
   color: #ffffff;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 700;
-  font-family: "Barlow Condensed", Sans-Serif;
+  font-family: "Barlow Condensed", sans-serif;
   border: 1px solid #14376b;
   border-radius: 15px; }
 
+/*
+media queries
+*/
 @media screen and (min-width: 1024px) {
+  /*
+  buttons used on projectpage
+  */
   .field--name-field-project-links div {
     padding: 1.3333333333%;
     margin-right: 2%; }

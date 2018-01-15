@@ -8,7 +8,7 @@
     Drupal.behaviors.masonry = {
         attach: function (context, settings) {
             $(window).on('load', function(){
-                $('.view-projecten>.view-content', context).once('masonry').each(function () {
+                $('.view-projecten>.view-content, .view-realisaties>.view-content', context).once('masonry').each(function () {
                     $(this).masonry({
                         columnWidth: '.views-row, .field__item',
                         itemSelector: '.views-row, .field__item',

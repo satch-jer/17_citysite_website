@@ -15,7 +15,7 @@ aim for article page only
   placing the page title
   */
   .block-page-title-block{
-    height: 50vh;
+    height: 70vh;
     width: 100vw; /*pattern bgc*/
 
     display: -webkit-box;
@@ -41,13 +41,12 @@ aim for article page only
     padding-left: $medium;
     padding-right: $small;
 
-    .field--name-field-artikel-kantlijn{
+    .article-side{
       margin-bottom: $medium;
     }
 
     .js-slick-single-item,
-    .field--name-field-artikel-tekst,
-    .field--name-field-artikel-contact{
+    .article-content{
       margin-bottom: $medium*2;
     }
 
@@ -60,7 +59,6 @@ aim for article page only
 
       text-align: center;
     }
-
   }
 }
 
@@ -74,15 +72,31 @@ media queries
     smaller margin-bottom on bigger screens
     */
     .node{
-      .field--name-field-artikel-kantlijn{
-        margin-bottom: $medium / 2;
+      /**/
+      .article-detail{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: $max;
+        margin: 0 auto;
+
+        .article-side{
+          width: 25%;
+          margin-right: $small;
+        }
+
+        .article-content{
+          width: 75%;
+        }
       }
 
       .js-slick-single-item,
-      .field--name-field-artikel-voetnoot,
-      .field--name-field-artikel-tekst,
-      .field--name-field-artikel-contact{
+      .article-content{
         margin-bottom: $medium;
+      }
+
+      .article-side{
+        margin-bottom: 0;
       }
     }
   }

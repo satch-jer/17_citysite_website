@@ -56,6 +56,11 @@ background:
   js:
     js/background.js: {}
 
+typed:
+  version: 1
+  js:
+    js/typed.js: {}
+
 masonry:
   version: 1
   js:

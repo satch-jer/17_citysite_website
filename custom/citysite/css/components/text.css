@@ -19,6 +19,14 @@ defining paddings and margins
 top and left margin
 divide by 2 in mediaqueries
 */
+/*
+styling of ul in text/paragraphs
+*/
+.field--type-text-long ul {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 4% 8.9% 0 8.9%; }
+
 p {
   font-size: 1rem;
   padding-bottom: 4%;
@@ -37,37 +45,25 @@ green class inline with text
   color: #a5ed8e; }
 
 /*
-kantlijn has different styling
+styling of project-specs and kantlijn
 */
-.field--name-field-artikel-kantlijn {
+.project-specs,
+.article-side {
   /*
   content has border
   padding of p -> div
   */
   border: 1px solid #101010;
   padding: 2%; }
-  .field--name-field-artikel-kantlijn p {
-    font-size: .8rem;
-    padding-bottom: 0%;
-    font-weight: 500; }
-
-/*
-styling of project-specs
-similar to kantlijn on article page
-*/
-.project-specs {
-  /*
-  content has border
-  padding of p -> div
-  */
-  border: 1px solid #101010;
-  padding: 2%; }
-  .project-specs .field, .project-specs p {
+  .project-specs .field, .project-specs p,
+  .article-side .field,
+  .article-side p {
     font-size: .8rem;
     padding-bottom: 0%;
     font-weight: 500;
     color: #777777; }
-  .project-specs .field__label {
+  .project-specs .field__label,
+  .article-side .field__label {
     font-weight: 500;
     color: #101010; }
 
@@ -82,9 +78,16 @@ project-intro shares same styling
   font-weight: 500; }
 
 /***
-media queries
+media queries starting smaller
 ***/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
+  /*
+  styling of ul in text/paragraphs
+  */
+  .field--type-text-long ul {
+    font-size: 1.1rem;
+    padding: 2% 4.45% 4% 4.45%; }
+
   p {
     padding-bottom: 2%;
     font-size: 1.1rem; }
@@ -99,14 +102,14 @@ media queries
   styling of project-specs
   no border and padding for alignment
   */
-  .project-specs {
+  .project-specs, .article-side {
     /*
     content has border
     padding of p -> div
     */
     border: none;
     padding: 0; }
-    .project-specs .field, .project-specs p {
+    .project-specs .field, .project-specs p, .article-side .field, .article-side p {
       font-size: .8rem;
       padding-bottom: 0%;
       font-weight: 500; } }
