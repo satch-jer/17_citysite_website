@@ -59,6 +59,7 @@ background:
 typed:
   version: 1
   js:
+    https://cdn.jsdelivr.net/npm/typeit@5.3.0/dist/typeit.min.js: {}
     js/typed.js: {}
 
 masonry:
