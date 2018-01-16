@@ -12,10 +12,9 @@ biggest title
 */
 h1,
 .field--name-field-titelpagina-ondertitel{
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 /*
@@ -26,7 +25,6 @@ is lowercase and lighter font
 .page-node-type-article,
 .page-node-type-overzichtspagina{
   h1{
-    text-transform: lowercase;
     font-size: 1.6rem;
     font-weight: 500;
     padding-top: $medium;
@@ -50,17 +48,18 @@ media queries
 @media screen and (min-width: 1024px) {
   h1,
   .field--name-field-titelpagina-ondertitel{
-    font-size: 3.2rem;
+    font-size: 5.6rem;
   }
 
   /*
-title on article page is
-lowercase and lighter font
-*/
+  title on all other pages is
+  lowercase and lighter font
+  */
   .page-node-type-article,
-  .page-node-type-overzichtspagina {
+  .page-node-type-overzichtspagina,
+  .page-node-type-projectpagina{
     h1{
-      font-size: 2.4rem;
+      font-size: 3.2rem;
       /*
       less padding because of bgi
       */

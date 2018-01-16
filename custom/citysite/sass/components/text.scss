@@ -12,15 +12,14 @@ styling of ul in text/paragraphs
 */
 .field--type-text-long{
   ul{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
-
     padding: $small $medium 0 $medium;
   }
 }
 
 p{
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding-bottom: $small;
   font-weight: 300;
 }
@@ -52,7 +51,7 @@ styling of project-specs and kantlijn
   padding: $small / 2;
 
   .field, p{
-    font-size: .8rem;
+    font-size: 1rem;
     padding-bottom: 0%;
     font-weight: 500;
     color: $emperor;
@@ -86,25 +85,11 @@ media queries starting smaller
   */
   .field--type-text-long{
     ul{
-      font-size: 1.1rem;
       padding: $small/2 $medium/2 $small $medium/2;
     }
   }
   p{
     padding-bottom: $small / 2;
-    font-size: 1.1rem;
-  }
-
-  .field--name-field-artikel-kantlijn{
-    p{
-      font-size: .9rem;
-    }
-  }
-
-  .field--name-field-artikel-voetnoot{
-    p{
-      font-size: 1.7rem;
-    }
   }
 
   /*
@@ -120,7 +105,7 @@ media queries starting smaller
     padding: 0;
 
     .field, p{
-      font-size: .8rem;
+      font-size: 1rem;
       padding-bottom: 0%;
       font-weight: 500;
     }

@@ -16,7 +16,7 @@ aim for overzichtspagina only
   placing the page title
   */
   .block-page-title-block{
-    height: 70vh;
+    height: 60vh;
     width: 100vw; /*pattern bgc*/
 
     display: -webkit-box;
@@ -33,14 +33,31 @@ aim for overzichtspagina only
     align-items: center;
 
     h1{
-      // slanted edge here
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
     }
   }
 
+  /*
+  div for pattern behind multiple div's
+  */
+
+  .layout-background{
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    top: 15vh;
+    z-index: -1;
+    // slanted edge here
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  }
+
   .region-content{
-    padding-left: $medium;
-    padding-right: $small;
+    /*
+    removed padding from content
+    image grid is full width on mobile
+    */
+    //padding-left: $medium;
+    //padding-right: $small;
     /*
     content has bottom margin
     cfr article and other pages
@@ -58,6 +75,13 @@ aim for overzichtspagina only
     margin-bottom: $medium;
 
     /*
+    added padding, filter has some whitespace
+    cfr. full width images on mobile
+    */
+    padding-left: $medium;
+    padding-right: $small;
+
+    /*
     content of filter-div has to be full width
     */
     fieldset{
@@ -68,13 +92,12 @@ aim for overzichtspagina only
 
   .views-row{
     position: relative;
-    margin-bottom: $medium;
     overflow: hidden;
 
     img{
       width: 100%;
       height: auto;
-      opacity: 0.5;
+      opacity: 0.2;
       /*
       hack to remove def white space under img
       */
@@ -115,6 +138,24 @@ media queries
   image grid goes masonry
   */
   .page-node-type-overzichtspagina{
+    /*
+    give left and right padding to content
+    not only to filter
+    */
+    .region-content{
+      padding-left: $medium;
+      padding-right: $small;
+    }
+
+    /*
+    remove individual padding of filter
+    now padding on all content
+    */
+    .view-filters{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     /*
     display flex
     */

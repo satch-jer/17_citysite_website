@@ -15,7 +15,7 @@ aim for article page only
   placing the page title
   */
   .block-page-title-block{
-    height: 70vh;
+    height: 60vh;
     width: 100vw; /*pattern bgc*/
 
     display: -webkit-box;
@@ -32,9 +32,21 @@ aim for article page only
     align-items: center;
 
     h1{
-      // slanted edge here
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
     }
+  }
+
+  /*
+  div for pattern behind multiple div's
+  */
+  .layout-background{
+    height: 35vh;
+    width: 100vw;
+    position: absolute;
+    top: 15vh;
+    z-index: -1;
+    // slanted edge here
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
   }
 
   .node{

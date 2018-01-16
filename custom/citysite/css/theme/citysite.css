@@ -18,7 +18,9 @@ body {
   -webkit-font-smoothing: antialiased;
   /*** sharper fonts ***/
   -moz-osx-font-smoothing: grayscale;
-  /*** sharper fonts ***/ }
+  /*** sharper fonts ***/
+  font-family: Raleway, sans-serif;
+  font-weight: 300; }
 
 .layout-container {
   opacity: 0;

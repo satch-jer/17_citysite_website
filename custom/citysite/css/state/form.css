@@ -25,10 +25,10 @@ divide by 2 in mediaqueries
   .webform-submission-contact-form input:focus {
     border: 1px solid #f2f2f2; }
   .webform-submission-contact-form input[type="submit"]:hover {
-    background-color: #a5ed8e; }
+    background-color: #47E11F; }
   .webform-submission-contact-form input[type="submit"]:active {
     border: none;
-    background-color: #a5ed8e; }
+    background-color: #47E11F; }
   .webform-submission-contact-form .messages--error {
     margin-bottom: 4%; }
   .webform-submission-contact-form .form-item--error-message {

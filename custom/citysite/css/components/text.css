@@ -23,12 +23,12 @@ divide by 2 in mediaqueries
 styling of ul in text/paragraphs
 */
 .field--type-text-long ul {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   padding: 4% 8.9% 0 8.9%; }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding-bottom: 4%;
   font-weight: 300; }
 
@@ -42,7 +42,7 @@ p:last-child {
 green class inline with text
 */
 .green {
-  color: #a5ed8e; }
+  color: #47E11F; }
 
 /*
 styling of project-specs and kantlijn
@@ -58,7 +58,7 @@ styling of project-specs and kantlijn
   .project-specs .field, .project-specs p,
   .article-side .field,
   .article-side p {
-    font-size: .8rem;
+    font-size: 1rem;
     padding-bottom: 0%;
     font-weight: 500;
     color: #777777; }
@@ -85,18 +85,10 @@ media queries starting smaller
   styling of ul in text/paragraphs
   */
   .field--type-text-long ul {
-    font-size: 1.1rem;
     padding: 2% 4.45% 4% 4.45%; }
 
   p {
-    padding-bottom: 2%;
-    font-size: 1.1rem; }
-
-  .field--name-field-artikel-kantlijn p {
-    font-size: .9rem; }
-
-  .field--name-field-artikel-voetnoot p {
-    font-size: 1.7rem; }
+    padding-bottom: 2%; }
 
   /*
   styling of project-specs
@@ -110,7 +102,7 @@ media queries starting smaller
     border: none;
     padding: 0; }
     .project-specs .field, .project-specs p, .article-side .field, .article-side p {
-      font-size: .8rem;
+      font-size: 1rem;
       padding-bottom: 0%;
       font-weight: 500; } }
 

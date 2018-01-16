@@ -16,9 +16,12 @@ divide by 2 in mediaqueries
 .page-node-type-article {
   /*
   placing the page title
+  */
+  /*
+  div for pattern behind multiple div's
   */ }
   .page-node-type-article .block-page-title-block {
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
     /*pattern bgc*/
     display: -webkit-box;
@@ -30,8 +33,13 @@ divide by 2 in mediaqueries
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    .page-node-type-article .block-page-title-block h1 {
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); }
+  .page-node-type-article .layout-background {
+    height: 35vh;
+    width: 100vw;
+    position: absolute;
+    top: 15vh;
+    z-index: -1;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%); }
   .page-node-type-article .node {
     padding-left: 8.9%;
     padding-right: 4%; }

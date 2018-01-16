@@ -66,10 +66,12 @@
       </header>
     {% endif %}
 
+    <div class="layout-background" style="background-image: url('{{ file_url(node.field_artikel_background.0.entity.uri.value) }}');background-position:center center; background-size:cover;">
+    </div>
+
     <div class="layout-content">
       <div class="block-page-title-block">
-        <h1 style="background-image: url('{{ file_url(node.field_artikel_background.0.entity.uri.value) }}');background-position:center center; background-size:cover; background-repeat: no-repeat"
-        > {{ node.label }} </h1>
+        <h1> {{ node.label }} </h1>
       </div>
       {{ page.content }}
     </div>{# /.layout-content #}
