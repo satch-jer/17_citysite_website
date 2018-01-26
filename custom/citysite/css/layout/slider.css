@@ -13,6 +13,10 @@ divide by 2 in mediaqueries
 /*
 aim for slider with 3 images
 */
+.slick-initialized .slick-track {
+  display: flex;
+  align-items: center; }
+
 .js-slick-single-item-center img {
   width: 100%;
   height: auto;

@@ -10,9 +10,8 @@
                 speed: 1000,
                 slidesToShow: 1,
                 centerMode: false,
-                adaptiveHeight: true,
                 prevArrow: false,
-                nextArrow: false,
+                nextArrow: false
             });
 
         }

@@ -12,14 +12,13 @@ styling of ul in text/paragraphs
 */
 .field--type-text-long{
   ul{
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.0rem;
     padding: $small $medium 0 $medium;
   }
 }
 
 p{
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   padding-bottom: $small;
   font-weight: 300;
 }
@@ -47,11 +46,11 @@ styling of project-specs and kantlijn
   content has border
   padding of p -> div
   */
-  border: 1px solid $black;
+  border: 1px solid $emperor;
   padding: $small / 2;
 
   .field, p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-bottom: 0%;
     font-weight: 500;
     color: $emperor;
@@ -105,7 +104,6 @@ media queries starting smaller
     padding: 0;
 
     .field, p{
-      font-size: 1rem;
       padding-bottom: 0%;
       font-weight: 500;
     }

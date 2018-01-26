@@ -23,12 +23,11 @@ divide by 2 in mediaqueries
 styling of ul in text/paragraphs
 */
 .field--type-text-long ul {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.0rem;
   padding: 4% 8.9% 0 8.9%; }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   padding-bottom: 4%;
   font-weight: 300; }
 
@@ -53,12 +52,12 @@ styling of project-specs and kantlijn
   content has border
   padding of p -> div
   */
-  border: 1px solid #101010;
+  border: 1px solid #777777;
   padding: 2%; }
   .project-specs .field, .project-specs p,
   .article-side .field,
   .article-side p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-bottom: 0%;
     font-weight: 500;
     color: #777777; }
@@ -102,7 +101,6 @@ media queries starting smaller
     border: none;
     padding: 0; }
     .project-specs .field, .project-specs p, .article-side .field, .article-side p {
-      font-size: 1rem;
       padding-bottom: 0%;
       font-weight: 500; } }
 

@@ -58,7 +58,7 @@ divide by 2 in mediaqueries
 /***
 media queries
 ***/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .page-node-type-article {
     /*
     smaller margin-bottom on bigger screens
@@ -72,7 +72,7 @@ media queries
         max-width: 1400px;
         margin: 0 auto; }
         .page-node-type-article .node .article-detail .article-side {
-          width: 25%;
+          width: 24%;
           margin-right: 4%; }
         .page-node-type-article .node .article-detail .article-content {
           width: 75%; }

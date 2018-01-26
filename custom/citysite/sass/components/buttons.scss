@@ -27,7 +27,6 @@ styling of buttons on projectpagina
 
     a{
       color: $black;
-      font-size: .8rem;
       /*
       bold buttons
       */
@@ -45,6 +44,11 @@ on slider with 3 images
   li{
     display: inline;
     margin: 0 $small/2;
+    /*
+    numbers under slider very small
+    because not main content
+    */
+    font-size: .6rem;
 
     button{
       /*
@@ -72,7 +76,7 @@ overview page
       padding: $medium $medium*2;
       background-color: $chathamsblue;
       color: $white;
-      font-size: 1rem;
+      font-size: 1.1rem;
       font-weight: 700;
       font-family: "Barlow Condensed", sans-serif;
       border: 1px solid $chathamsblue;

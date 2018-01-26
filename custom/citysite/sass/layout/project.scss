@@ -65,6 +65,13 @@ aim for projectpage only
   }
 
   .project-slider{
+    .project-slider-opbouw{
+      /*
+      litte space between two sliders
+      */
+      margin-bottom: $small;
+    }
+
     margin-bottom: $medium;
   }
 
@@ -122,6 +129,13 @@ media queries
 ***/
 @media screen and (min-width: 1024px) {
 
+  /*
+  background-attachment fixed on desktop
+  */
+  .project-title{
+    background-attachment: fixed;
+  }
+
   .page-node-type-projectpagina{
     /*
     smaller margin-bottom on bigger screens
@@ -158,12 +172,12 @@ media queries
       margin: 0 auto;
 
       .project-specs{
-        width: 25%;
+        width: 30%;
         margin-right: $small;
       }
 
       .project-desc{
-        width: 75%;
+        width: 70%;
       }
     }
 

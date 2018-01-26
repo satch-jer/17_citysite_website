@@ -15,7 +15,7 @@ divide by 2 in mediaqueries
   hide legend
   think about the screenreader
   */
-  font-size: 1.2rem; }
+  font-weight: 500; }
   .bef-exposed-form legend {
     position: absolute;
     left: -10000px;

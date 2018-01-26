@@ -32,7 +32,6 @@ styling of buttons on projectpagina
   transition: all .5s ease; }
   .field--name-field-project-links div a {
     color: #101010;
-    font-size: .8rem;
     /*
     bold buttons
     */
@@ -46,7 +45,12 @@ on slider with 3 images
   text-align: center; }
   .slick-dots li {
     display: inline;
-    margin: 0 2%; }
+    margin: 0 2%;
+    /*
+    numbers under slider very small
+    because not main content
+    */
+    font-size: .6rem; }
     .slick-dots li button {
       /*
       css3 animation on hover
@@ -68,7 +72,7 @@ overview page
   padding: 8.9% 17.8%;
   background-color: #14376b;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   font-family: "Barlow Condensed", sans-serif;
   border: 1px solid #14376b;
